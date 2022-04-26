@@ -1,0 +1,15 @@
+l1=[10,20,30,40,10,30,50,10]
+print(l1,type(l1),id(l1))
+l1.append("Python")
+l1.insert(1,"Karan")
+print(l1)
+l2=l1.copy()
+print(l2,type,(l2),id(l2))
+l1.reverse()
+print(l1)
+l1.count("Python")
+print(l1)
+l1.sort()
+#    l1.sort()
+ #   l1.sort()      TypeError: '<' not supported between instances of 'int' and 'str'
+  #  print(l1)

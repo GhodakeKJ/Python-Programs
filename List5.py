@@ -1,0 +1,9 @@
+l1=[10,20,30,40,50,20,40,50]
+l2=["Karan","Python"]
+print(l1)
+l1.reverse()
+print(l1)
+l1.sort()
+print(l1)
+l2.extend(l1)
+print(l1)
