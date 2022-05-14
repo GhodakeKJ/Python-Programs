@@ -1,22 +1,14 @@
 #Prog1.py
-# Program Which Displays Variable Length Arguments
+a=10
+print(a,type(a))
 
-def show(sno,sname,*details,crs="Python",cnt="India"):  #Function Defination-1
-	print("="*50)
-	print("\tStudent NUmber ={}".format(sno))
-	print("\tStudent Name={}".format(sname))
-	print("\tStudent Course ={}".format(crs))
-	print("\tStudent Country ={}".format(cnt))
-	print("Details Of Student :".format(sname))
-	for val in details:
-		print("\t\t",val)
-	print("="*50)
+b=10.5
+print(b,type(b))
 
+c=True
+d=False
+print(c,type(c))
+print(d,type(d))
 
-
-#Main Program
-show(101,"Rossum",76.80,"Developer",cnt="USA") #Function Call-1
-show(102,"Scott",67.90) #Function Call-2
-show(103,"Ritche",34.56,True,78.80,"Enggineer",cnt="UK")    #Function Call-3
-show(104,"Karan",98.40,"Maharashtra","Web Developer",True,16.8)#Function Call-4
-show(sno=105,cnt="Ukrean",crs="UI",sname="KKKK",10,20,30,40,50,66)
+e=2+4j
+print(e,type(e))

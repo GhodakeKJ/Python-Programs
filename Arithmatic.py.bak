@@ -1,0 +1,7 @@
+#Arithmatic.py
+a=int(input("Entet First Value :"))
+b=int(input("Enter Second Value :"))
+print("="*50)
+print(" A R I T H M A T I C  O P E R A T O R S  ")
+print("="*50)
+print("Sum Of ({} And {}) = {}".format(a,b,a+b))
