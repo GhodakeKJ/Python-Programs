@@ -1,0 +1,10 @@
+#Prog8.py
+def show(a):
+	print("{}".format(a))
+#Main Program	
+show(10)
+
+def show(a,b):
+	print("{}\t{}".format(a,b))
+#Main Program	
+show(10,20)
